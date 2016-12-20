@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximun-scale=1,minimum-scale=1,user-scable=no">
+		<link rel="stylesheet" type="text/css" href="../../public/css/fabu/fabu.css"/>
+	<style type="text/css">
+		
+		</style>
+	</head>
+	<body>
+		<div class="top">
+			<div class="lt">取消</div>
+			<div class="lj"></div>
+			<div class="font_or">发布房源</div>
+		</div>
+		
+		<div class="top_inp_b">
+			<input type="text" class="inp_one_one" name="" id="" value="" />
+			<div class="font_img_">新增楼盘</div>
+		</div>
+		<div class="inp_too">
+			<div class="green"></div>
+			<div class="font_big">大厦信息</div>
+			<div class="clear"></div>
+			<div class="font_min">商圈:</div>
+			<input type="text" class="font_min_inp" placeholder="浦东-八百伴"/>
+			<div class="clear"></div>
+			<div class="font_min">物业:</div>
+			<input type="text" class="font_min_inp" placeholder="上海浦江物业有限公司"/>
+			<div class="clear"></div>
+			<div class="font_min">层数:</div>
+			<input type="text" class="font_min_inp" placeholder="23层"/>
+			<div class="clear"></div>
+			<div class="font_min">层高:</div>
+			<input type="text" class="font_min_inp" placeholder="标准4.5米，净高2.75米，大唐14.5米"/>
+			<div class="clear"></div>
+			<div class="font_min">车位:</div>
+			<input type="text" class="font_min_inp" placeholder="地上30个，地下400个，1250/月"/>
+			<div class="clear"></div>
+			<div class="font_min">电梯:</div>
+			<input type="text" class="font_min_inp" placeholder="电梯8部，货梯2部，三菱电梯"/>
+			<div class="clear"></div>
+			<div class="font_min">空调:</div>
+			<input type="text" class="font_min_inp" placeholder="集中式中央空调"/>
+			<div class="clear"></div>
+			<div class="font_min_for">入驻企业:</div>
+			<input type="text" class="font_min_inp" placeholder="顺诚商业地产(房地产/建筑)、大大集团"/>
+			<div class="clear"></div>
+			<div class="font_min">地铁:</div>
+			<input type="text" class="font_min_inp" placeholder="距离世纪大道站步行7分钟"/>
+
+		</div>
+		<div class="inp_max_bottom">
+			<div class="blue"></div>
+			<div class="font_big">房源信息</div>
+			<div class="clear"></div>
+			<div class="font_font_one">请选择发布房源的属性</div>
+				<div class="img_font">
+					<div class="img_one_block"></div>
+					<div class="font_one">整层</div>
+				</div>
+			
+				
+				<div class="img_font">
+					<div class="img_one_block"></div>
+					<div class="font_one">整栋</div>
+				</div>
+				
+				<div class="img_font">
+					<div class="img_one_block"></div>
+					<div class="font_one">众创空间</div>
+				</div>
+				<div class="img_font">
+					<div class="img_one_block"></div>
+					<div class="font_one">商务中心</div>
+				</div>
+				<div class="img_font">
+					<div class="img_one_block"></div>
+					<div class="font_one">创意产业园</div>
+				</div>
+				
+				<div class="img_font">
+					<div class="img_one_block"></div>
+					<div class="font_one">写字楼</div>
+				</div>
+				
+				<div class="img_font">
+					<div class="img_one_block"></div>
+					<div class="font_one">工位</div>
+				</div>
+				<div class="clear"></div>
+				<div class="height_bottom"></div>
+				<div class="font_inp_font">
+					<div class="font_one_">房源面积</div>
+					<input type="text" class="inp_" name="" id="" value="" />
+					<div class="font_two">m²</div>
+				</div>
+				
+		</div>
+		
+	</body>
+	<script src="//cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+	<script type="text/javascript">
+		$('.img_one_block').click(function(){
+			if($(this).hasClass('img_one_block')){
+				$(this).removeClass('img_one_block');
+				$(this).addClass('img_one_none');
+			}else{
+				$(this).removeClass('img_one_none');
+				$(this).addClass('img_one_block');
+			}
+		})
+	</script>
+</html>

@@ -1,0 +1,130 @@
+			body {
+	margin: 0;
+	padding: 0;
+	background: #EFEFF4;
+	font-family: "微软雅黑";
+}
+
+.margin-top{
+	height: 30px;
+	background: #fff;
+}
+.margin-top15{
+	height: 15px;
+}
+.top {
+	height: 50px;
+	background: #fff;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.lt {
+	height: 50px;
+	width: 50px;
+	background: url(../../img/nav_icon_back@2x.png) no-repeat 15px;
+	background-size: 20%;
+	float: left;
+}
+
+.font_or {
+	width:80px;
+	height: 50px;
+	float: right;
+	color: #000;
+	font-size: 18px;
+	line-height: 50px;
+}
+
+.lj {
+	width: 40%;
+	height: 50px;
+	float: right;
+}
+.ziliao{
+	height: 230px;
+	background: #fff;
+}
+.topimg{
+	width: 80px;
+	height:80px;
+	margin: auto;
+	border-radius:50%;
+	background:url(../../img/banner_img@2x.png) no-repeat;
+	background-size:contain;
+	
+}
+.nameid{
+	font-size: 18px;
+	text-align: center;
+	margin-top: 2px;
+}
+.font_one{
+	font-size: 12px;
+	margin-top:-10px;
+	text-align: center;
+	color: #818181;
+}
+.border_radius{
+	border: 1px solid #ED6E2A;
+	width: 20%;
+	margin: auto;
+	padding:2%;
+	border-radius: 3px;
+	font-size: 12px;
+	text-align: center;
+	color: #ED6E2A;
+}
+.contact{
+	height: 180px;
+	background: #fff;
+	
+}
+.contact_number{
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	line-height:15px;
+}
+.number_one{
+	float: left;
+	font-size: 14px;
+	color: #818181;
+	margin-right:20px;
+	height: 40px;
+	margin-left: 15px;
+
+	}
+.number_two{
+	float: left;
+	font-size: 14px;
+	color: #666;
+	height: 40px;
+}
+.clear{
+	clear: both;
+}
+.bottomimg{
+	height: 140px;
+}
+.bottomimgone{
+	width: 100px;
+	height:70px;
+	background: 1px scroll #878787;
+	margin-left: 15px;
+	float: left;
+	border-radius:6px;
+}
+
+.bottomimgtwo{
+	width: 100px;
+	height:70px;
+	background: 1px scroll #878787;
+	margin-left: 25px;
+	float: left;
+	border-radius:6px;
+}
+.bottomfont{
+	margin-top:80px;
+	font-size: 12px;
+	text-align: center;
+	color: #818181;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			img{
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="bodywhy">
+		<img src="../../public/img/loading.png"/>
+		</div>
+	</body>
+	<script src="//cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+	<script>
+		$('.bodywhy').click(function(){
+		location.replace("../shouye/shouye.html")
+		},2000)
+		var dingshi = setInterval(function() {
+			$('.bodywhy').trigger("click");
+		}, 2000);
+	
+		
+		
+	</script>
+</html>

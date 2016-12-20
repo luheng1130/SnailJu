@@ -1,0 +1,155 @@
+	
+	body::-webkit-scrollbar{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-family: "微软雅黑";
+}
+.toptop{
+	height: 10px;
+	background: #fff;
+}
+.top{
+	height:40px;
+	background: #fff;
+}
+.message_bar{
+	width: 70%;
+	height: 30px;
+	border: 2px solid #EA5404;
+	margin: auto;
+	border-radius: 5px;
+}
+.message_one{
+	width: 33%;
+	height: 30px;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: #EA5404;
+}
+.message_two{
+	width: 32%;
+	height: 30px;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	border-right:2px solid #EA5404;
+	border-left:2px solid #EA5404;
+	font-size: 14px;
+	color: #fff;
+	background: #EA5404;
+}
+.message_three{
+	width: 33%;
+	height: 30px;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: #EA5404;
+}
+.margin-top{
+	height: 10px
+}
+.ing_one{
+	width:90%;
+	height: 130px;
+	background: #FFFFFF;
+	margin: auto;
+	border-radius:5px;
+	box-shadow: 1px 0px 5px 1px #CCCCCC;
+}
+.top_font{
+	height:35px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.font_left{
+	font-size: 14px;
+	float: left;
+	margin:10px;
+}
+.font_right{
+	font-size: 12px;
+	float: right;
+	margin:10px;
+	color: #CCCCCC;
+}
+.bottom_font{
+	height: 70px;
+	padding:10px;
+}
+.bottom_one{
+	font-size: 12px;
+	color: #818181;
+	text-indent: 2em;
+}
+.bottom_two{
+	font-size: 12px;
+	color: #818181;
+}
+
+	
+			.bottom{
+				width: 100%;
+				height: 50px;
+				background: #FFFFFF;
+				position: fixed;
+				bottom: 0px;
+				
+			}
+			
+			.bottom_s{
+				width:20%;
+				height:40px;
+				float: left;
+				text-align: center;
+				margin-top:5px;
+				
+			}
+			.bottom_sone{
+				background: url('../../img/bottom_nor_icon04@2x.png') no-repeat center;
+				background-size:35%;
+				height:28px;
+				margin: auto;
+			}
+			
+			.bottom_yone{
+				background: url('../../img/bottom_nor_icon03@2x.png') no-repeat center;
+				background-size:35%;
+				height:28px;
+			}
+			.bottom_j{
+				background: url('../../img/bottom_icon05@2x.png') no-repeat center;
+				background-size:60%;
+				float: left;
+				width:20%;
+				height:40px;
+				margin-top:5px;
+			}
+			
+			
+			
+			.bottom_xone{
+				background: url('../../img/bottom_press_icon02@2x.png') no-repeat center;
+				background-size:35%;
+				height:28px;
+			}
+			
+			.bottom_wone{
+				background: url('../../img/bottom_nor_icon01@2x.png') no-repeat center;
+				background-size:35%;
+				height:28px;
+			}
+			.bottom .orange{
+				color:#ED6E2A;
+			}
+			.bottom p{
+				font-size: 12px;
+				height: 30px;
+				margin: 0;
+				padding: 0;
+				color: #CCCCCC;
+			}
+			

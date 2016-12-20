@@ -1,0 +1,142 @@
+										body {
+	margin: 0;
+	padding: 0;
+	background: #EFEFF4;
+	font-family: "微软雅黑";
+}
+
+.top {
+	height: 50px;
+	background: #fff;
+}
+
+.margin-top{
+	height: 10px
+}
+.margin-top20{
+	height: 20px
+}
+.topx{
+	height: 10px;
+}
+.lt {
+	height: 50px;
+	width: 50px;
+	background: url(../../img/nav_icon_back@2x.png) no-repeat 15px;
+	background-size: 20%;
+	float: left;
+}
+
+.font_or {
+	width: 120px;
+	height: 50px;
+	float: right;
+	color: #000;
+	font-size: 18px;
+	line-height: 50px;
+}
+
+.lj {
+	width: 35%;
+	height: 50px;
+	float: right;
+}
+.top_one{
+	height: 50px;
+	background: #fff;
+}
+.oneleft{
+	width: 50%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	
+	
+}
+.oneright{
+	width: 50%;
+	height: 50px;
+	float:right;
+	text-align: center;
+	line-height: 50px;
+	border-bottom:2px solid #EA5404;
+	color: #EA5404;
+}
+.center_bor{
+	width: 1px;
+	height: 30px;
+	border-left: 1px solid #EAEAEA;
+	margin: auto;
+	position: relative;
+	top: 20%;
+}
+
+.total_img{
+	height:120px;
+	background: #fff;
+	padding: 15px;
+}
+.img_div{
+	width:36%;
+	height: 120px;
+	background: url('../../img/content_img_list@2x.png') no-repeat;
+	background-size:contain;
+	float: left;
+	margin-right: 15px;
+}
+.font_div{
+	width:27%
+	height: 120px;
+	float: left;
+}
+.font_one{
+	font-size: 14px;
+	padding: 2px;
+}
+.font_two{
+	font-size: 12px;
+	color: #818181;
+	padding: 2px;
+}
+.min_button{
+	width:50px;
+	height:10px;
+	border: #EA5404 1px solid;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 5px;
+	line-height:8px;
+	color: #EA5404;
+	font-size: 12px;
+}
+.font_color{
+	font-size: 12px;
+	color: #818181;
+}
+.font_color a{
+	color: #EA5404;
+	text-decoration: none;
+}
+.font_right{
+	width:24%;
+	height: 120px;
+	float: right;
+}
+.right_img{
+	width: 40px;
+	height: 20px;
+	background: url('../../img/nav_collect_press_icon@2x.png') no-repeat 10px 0px;
+	background-size:50%;
+	margin-left:25px;
+	
+}
+.right_font{
+	font-size: 12px;
+	margin-top:60px;
+	color: #818181;
+}
+.oneleft a{
+	text-decoration: none;
+	color: #000;
+}

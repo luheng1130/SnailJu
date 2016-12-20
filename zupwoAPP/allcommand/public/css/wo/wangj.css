@@ -1,0 +1,221 @@
+			body {
+	margin: 0;
+	padding: 0;
+	background: #EFEFF4;
+	font-family: "微软雅黑";
+}
+
+.top {
+	height: 50px;
+	background: #fff;
+}
+
+.lt {
+	height: 50px;
+	width: 50px;
+	background: url(../../img/nav_icon_back@2x.png) no-repeat 15px;
+	background-size: 20%;
+	float: left;
+}
+
+.font_or {
+	width: 80px;
+	height: 50px;
+	float: right;
+	color: #ED6E2A;
+	font-size: 18px;
+	line-height: 50px;
+}
+
+.lj {
+	width: 40%;
+	height: 50px;
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.margin-top {
+	height: 20px;
+}
+
+.inp {
+	height:173px;
+	background: #FFF;
+}
+
+.text {
+	display: block;
+	height: 40px;
+	width: 72%;
+	padding-left: 28%;
+	border: none;
+	border-top: 1px solid #EAEAEA;
+	border-bottom: 1px solid #EAEAEA;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	outline: none;
+}
+.code {
+	display: block;
+	height: 40px;
+	width: 68%;
+	padding-left:32%;
+	border: none;
+	border-bottom: 1px solid #EAEAEA;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	outline: none;
+}
+
+
+.pasw {
+	display: block;
+	padding-left: 28%;
+	height: 40px;
+	width: 72%;
+	border: none;
+	border-bottom: 1px solid #EAEAEA;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	outline: none;
+}
+
+.paswt {
+	display: block;
+	padding-left: 28%;
+	height: 40px;
+	width: 72%;
+	border: none;
+	border-bottom: 1px solid #EAEAEA;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	outline: none;
+}
+
+.texttop {
+	position: relative;
+}
+
+.codetop {
+	position: relative;
+}
+.textimg {
+	height: 25px;
+	width: 25px;
+	background: url('../../img/content_ID_icon@2x.png') no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 20%;
+	left: 5%;
+}
+
+
+
+.codeimg {
+	height: 25px;
+	width: 25px;
+	background: url('../../img/content_verify_icon@2x.png') no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 20%;
+	left: 5%;
+}
+
+.paswtop {
+	position: relative;
+}
+.paswttop {
+	position: relative;
+}
+
+.paswimg {
+	height: 25px;
+	width: 25px;
+	background: url('../../img/content_password_icon@2x.png') no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 20%;
+	left: 5%;
+}
+
+.paswtimg {
+	height: 25px;
+	width: 25px;
+	background: url('../../img/content_password_icon@2x.png') no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 20%;
+	left: 5%;
+}
+.textfont {
+	position: absolute;
+	left: 15%;
+	top: 20%;
+}
+.codefont {
+	position: absolute;
+	left: 15%;
+	top: 20%;
+}
+
+.paswfont {
+	position: absolute;
+	left: 15%;
+	top: 20%;
+}
+
+.paswtfont {
+	position: absolute;
+	left: 15%;
+	top: 20%;
+}
+.codediv{
+	position: absolute;
+	width: 80px;
+	height: 25px;
+	background: #ED6E2A;
+	right: 15px;
+	border-radius:5px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #EAEAEA;
+	text-align: center;
+	top: 20%;
+}
+
+.margin-top60 {
+	margin-top: 50px;
+}
+
+.dengl {
+	width: 90%;
+	height: 45px;
+	margin: auto;
+	text-align: center;
+	font-size: 18px;
+	background: #C7C7C7;
+	line-height: 45px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.font-org {
+	width: 90%;
+	margin: auto;
+	height: 20px;
+	font-size: 14px;
+}
+
+.font_left {
+	float: left;
+	color: orange;
+}
+
+.font_right {
+	float: right;
+	color: #666;
+}
+

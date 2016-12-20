@@ -1,0 +1,146 @@
+					body {
+	margin: 0;
+	padding: 0;
+	background: #EFEFF4;
+	font-family: "微软雅黑";
+}
+
+.top {
+	height: 50px;
+	background: #fff;
+}
+
+.margin-top{
+	height: 10px
+}
+.margin-top20{
+	height: 20px
+}
+.topx{
+	height: 10px;
+}
+.lt {
+	height: 50px;
+	width: 50px;
+	background: url(../../img/nav_icon_back@2x.png) no-repeat 15px;
+	background-size: 20%;
+	float: left;
+}
+
+.font_or {
+	width: 40px;
+	height: 50px;
+	float: right;
+	color: #000;
+	font-size: 18px;
+	line-height: 50px;
+}
+
+.lj {
+	width: 45%;
+	height: 50px;
+	float: right;
+}
+.top_one{
+	height: 50px;
+	background: #fff;
+}
+.oneleft{
+	width: 50%;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	color: #EA5404;
+	border-bottom:2px solid #EA5404;
+}
+.oneright{
+	width: 50%;
+	height: 50px;
+	float:right;
+	text-align: center;
+	line-height: 50px;
+}
+.center_bor{
+	width: 1px;
+	height: 30px;
+	border-left: 1px solid #EAEAEA;
+	margin: auto;
+	position: relative;
+	top: 20%;
+}
+.divone{
+	width: 95%;
+	height: 150px;
+	margin: auto;
+	background: #fff;
+	border-radius:4px;
+	box-shadow: 1px 0px 10px 1px #C7C7C7;
+}
+
+.onetop{
+	height:50px;
+	width: 100%;
+	background:url('../../img/content_list_border.9@2x.png') no-repeat 0px 42px ;
+}
+.font_one{
+	height: 30px;
+	width:50%;
+	float: left;
+	padding-left: 15px;
+}
+.font_two{
+	height:20px;
+	width:45px;
+	background: #15B755;
+	float: right;
+	color: #fff;
+	text-align: center;
+	margin-right: 15px;
+	font-size: 12px;
+	border-radius:5px;
+	margin-top:20px;
+	line-height: 20px;
+}
+
+.font_twotwo{
+	height:20px;
+	width:45px;
+	background: #0193E6;
+	float: right;
+	color: #fff;
+	text-align: center;
+	margin-right: 15px;
+	font-size: 12px;
+	border-radius:5px;
+	margin-top:20px;
+	line-height: 20px;
+}
+.onebottom{
+	font-size: 12px;
+	padding-left: 15px;
+}
+.button{
+	width: 90px;
+	height: 30px;
+	background: #EFEFF4;
+	font-size: 14px;
+	color: #818181;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	border-radius:5px;
+	border: 1px solid #eaeaea;
+	margin-left: 37%;
+}
+.number{
+	font-size: 12px;
+	color: #ccc;
+	float: right;
+	margin-right: 15px;
+}
+.oneright a{
+	text-decoration: none;
+	color: #000;
+	
+}
