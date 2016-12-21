@@ -97,18 +97,19 @@
 				</div>
 			</div>
 		</div>
+			<!--底部-->		
 		<div class="bottom">
-			<div class="bottom_s">
+			<div class="bottom_s" id="shouye">
 				<div class="bottom_sone"></div>
 				<p>首页</p>
 			</div>	
 			
-			<div class="bottom_s">
+			<div class="bottom_s" id="yuyue">
 				<div class="bottom_yone"></div>
 				<p>预约</p>
 			</div>
 			
-			<div class="bottom_j">
+			<div class="bottom_j" id="fabu">
 				
 			</div>
 			
@@ -117,7 +118,7 @@
 				<p class="orange">信息</p>
 			</div>
 			
-			<div class="bottom_s">
+			<div class="bottom_s" id="wo">
 				<div class="bottom_wone"></div>
 				<p>我</p>
 			</div>
@@ -133,5 +134,22 @@
 		 is.onclick=function(){
 		location.replace("tongz.html")
 		}
+	</script>
+	<script src="//cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+	<script type="text/javascript">
+		$('#shouye').click(function(){
+		location.replace("../shouye/shouye.html")
+		})
+
+		$('#yuyue').click(function(){
+				location.replace("../yuyue/jiedan.html")
+				})
+		$('#wo').click(function(){
+				location.replace("../wo/mydl.html")
+				})
+		
+		$('#fabu').click(function(){
+				location.replace("../fabu/tiaoz.html")
+			})
 	</script>
 </html>

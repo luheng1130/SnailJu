@@ -42,5 +42,25 @@
 			<p class="font_right">忘记密码?</p>
 		</div>
 	</body>
+	<script src="//cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+	<script type="text/javascript">
+		
+			$(".pasw").blur(function(){
+				if(($('text').value != '')&&($('pasw').value != '')){
+					$('.dengl').css('background','#EA5404');
+			}
+			})
+			
+			$('.dengl').click(function(){
+				location.replace("denglh.html")
+				})
+		
+			$('.font_left').click(function(){
+				location.replace("zhuc.html")
+				})
+			$('.font_right').click(function(){
+				location.replace("wangj.html")
+				})
+	</script>
 
 </html>

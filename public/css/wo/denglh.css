@@ -62,7 +62,7 @@
 			
 			.t_gt{
 				position: absolute;
-				background: url("../../img/login_right_icon@2x.png") no-repeat;
+				background: url('../../img/content_list_icon_right@2x.png') no-repeat;
 				background-size:cover;
 				width:10px;
 				height: 18px;
@@ -113,10 +113,10 @@
 			}
 			
 			.f_img{
-				background: url("../../img/content_list_icon01@2x.png") no-repeat;
+				background: url('../../img/content_list_icon01@2xxy.png') no-repeat;
 				width:25px;
 				height:25px;
-				background-size:cover;
+				background-size:contain;
 				border-radius: 50%;
 				position: absolute;
 				left: 15px;

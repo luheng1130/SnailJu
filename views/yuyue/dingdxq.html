@@ -67,10 +67,26 @@
 			<div class="right_time">已接单，待反馈</div>
 		</div>
 		<div class="bottom_bot">
-			<div class="font_fl">改期</div>
-			<div class="font_fl">达成</div>
-			<div class="font_fll">取消</div>
+			<div class="font_fl" id="gaiqi">改期</div>
+			<div class="font_fl" id="dacheng">达成</div>
+			<div class="font_fll" id="quxiao">取消</div>
 		</div>
 	</body>
+	<script src="//cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+	<script type="text/javascript">
+		$('#gaiqi').click(function(){
+		location.replace("dingdan1.html")
+		})
+		
+		$('#dacheng').click(function(){
+		location.replace("dingdxq.html")
+		})
+		$('#quxiao').click(function(){
+		location.replace("dingdan2.html")
+		})
+		$('.lt').click(function(){
+		location.replace("jiedan.html")
+		})
+	</script>
 
 </html>

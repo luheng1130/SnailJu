@@ -1,7 +1,7 @@
-				body::-webkit-scrollbar {
+				body{
 					margin: 0;
 					padding: 0;
-					background: #EFEFF4;
+					background: #FFFFFF;
 					font-family: "微软雅黑";
 				}
 				

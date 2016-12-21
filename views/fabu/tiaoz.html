@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximun-scale=1,minimum-scale=1,user-scable=no">
+		<style type="text/css">
+			body{
+				background: #000;
+				opacity: 0.9;
+				margin: 0;
+				padding:0;
+			}
+			.bottom{
+				width: 80%;
+				height:110px;
+				position:absolute;
+				bottom:10%;
+				padding: 10%;
+				overflow: hidden;
+			}
+			.bottom_left{
+				width:110px;
+				height: 110px;
+				background:url(../../public/img/publish_btn01@2x.png) no-repeat;
+				background-size:contain;
+				float: left;
+			}
+			
+			.bottom_right{
+				width:110px;
+				height: 110px;
+				background:url(../../public/img/publish_btn02@2x.png) no-repeat;
+				background-size:contain;
+				float: right;
+			}
+			.bottom_x{
+				width: 100%;
+				height:40px;
+				background: #242221 url(../../public/img/publish_close_icon@2x.png) no-repeat center;
+				background-size:5%;
+				position: absolute;
+				bottom: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="bottom">
+		<div class="bottom_left"></div>
+		<div class="bottom_right"></div>
+		</div>
+		<div class="bottom_x"></div>
+	</body>
+	<script src="//cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+	<script type="text/javascript">
+		$('.bottom_right').click(function(){
+				location.replace("fabu.html")
+				})
+		$('.bottom_x').click(function(){
+				location.replace("../shouye/shouye.html")
+				})
+	</script>
+</html>

@@ -70,10 +70,10 @@
 			#font_top{
 				position: absolute;
 				color: white;
-				left: 40%;
-				margin-left:-30px;
-				font-size:14px;
-				margin-top:20px ;
+				left: 50%;
+				margin-left:-20px;
+				font-size:16px;
+				margin-top:25px ;
 				text-align: center;
 			}
 			.suo{
@@ -164,6 +164,7 @@
 				bottom: 0px;
 				
 			}
+			
 			
 			.bottom_s{
 				width:20%;

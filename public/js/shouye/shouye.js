@@ -120,18 +120,33 @@ var yy = $('.yy'); //房产，地铁
 	
 
 	$('.none div').click(function(){
-		if($(this).hasClass('uiwu')){
-			$(this).removeClass('uiwu');
+//		if($(this).hasClass('uiwu')){
+//			$(this).removeClass('uiwu');
+//			
+//		}else{
+//			$(this).addClass('uiwu');
+//			
+//		}
 			
-		}else{
-			$(this).addClass('uiwu');
-			
-		}
-			
-//		$('.none').css('display','none');
-//		$(this).css('backrgound','#fff');
+		$('.none').css('display','none');
+		$(this).css('backrgound','#fff');
 		
 	})
+	$('.xx li').click(function(){
+//		if($(this).hasClass('uiwu')){
+//			$(this).removeClass('uiwu');
+//			
+//		}else{
+//			$(this).addClass('uiwu');
+//			
+//		}
+			
+		$('#for').css('display','none');
+		$(this).css('backrgound','#fff');
+		
+	})
+	
+	
 	
 yy.on('tap', function() {
 	var yys = $(this);
@@ -372,9 +387,9 @@ $('#xinxi').click(function(){
 		location.replace("../xinxi/xiaoxi.html")
 		})
 $('#wo').click(function(){
-		location.replace("../wo/denglh.html")
-		})
+				location.replace("../wo/mydl.html")
+				})
 
 $('#fabu').click(function(){
-		location.replace("../fabu/fabu.html")
+		location.replace("../fabu/tiaoz.html")
 		})

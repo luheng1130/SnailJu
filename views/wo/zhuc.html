@@ -47,8 +47,16 @@
 				<div class="shenfimg"></div>
 				<span class="shenffont">身份：</span>
 				<div class="shhenfright"></div>
-				<input type="text" class="text" name="" id="" value="" placeholder="经纪人" />
-			</div>
+				<input type="text" id="font_none" class="text" value="" placeholder="" />
+				
+				<div class="none_div">
+					<div class="name_font">经纪人</div>
+					<div class="name_font">小业主</div>
+					<div class="name_font">运营商</div>
+					<div class="name_font">代理商</div>
+					<div class="name_font">开发商</div>
+				</div>
+				</div>
 		</div>
 		<!--登录-->
 		<div class="margin-top60"></div>
@@ -57,4 +65,31 @@
 		
 		<p class="font_zc">注册即代表同意<a href="#">《活力矩阵用户协议》</a></p>
 	</body>
+	<script src="//cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+	<script type="text/javascript">
+	$(".pasw").blur(function(){
+				if(($('.code').value != '')&&($('.pasw').value != '')&&($('.text').value != '')&&($('.pasw').value != '')){
+					$('.dengl').css('background','#EA5404');
+			}
+			})
+	$('#font_none').focus(function(){
+			$('.none_div').css('display','block')
+		
+	})
+	$('.name_font').click(function(){
+		
+//		var a=$(this).index();
+//		console
+		
+//		console.log(a);
+		
+		$('#font_none').val($(this).text());
+		$('.none_div').css('display','none');
+		
+//		console.log($("#font_none").val)
+	})
+	
+	
+	
+	</script>
 </html>

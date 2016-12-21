@@ -263,3 +263,21 @@ body {
 .font_zc a{
 	color: #ED6E2A;
 }
+.none_div{
+	height: 149px;
+	position: absolute;
+	width: 80px;
+	right: 0;
+	top: 10px;
+	border-radius:5px;
+	background: #A3A3A3;
+	display: none;
+}
+.name_font{
+	height: 29px;
+	border-bottom:1px solid #EAEAEA;
+	font-size: 12px;
+	color: #FFFFFF;
+	line-height: 29px;
+	text-align: center;
+}
