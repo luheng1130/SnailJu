@@ -50,4 +50,21 @@
 		<div class="margin-top"></div>
 		
 	</body>
+	<script src="//cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+	<script type="text/javascript">
+	$(".pasw").blur(function(){
+				if(($('.code').value != '')&&($('.pasw').value != '')&&($('.text').value != '')&&($('.pasw').value != '')){
+					$('.dengl').css('background','#EA5404');
+			}
+			})
+	$('#font_none').focus(function(){
+			$('.none_div').css('display','block')
+		
+	})
+	
+	$('.dengl').click(function(){
+				location.replace("dengl.html")
+			})
+	
+	</script>
 </html>

@@ -117,35 +117,7 @@ var yy = $('.yy'); //房产，地铁
 //			console.log(one);
 //		})
 
-	
 
-	$('.none div').click(function(){
-//		if($(this).hasClass('uiwu')){
-//			$(this).removeClass('uiwu');
-//			
-//		}else{
-//			$(this).addClass('uiwu');
-//			
-//		}
-			
-		$('.none').css('display','none');
-		$(this).css('backrgound','#fff');
-		
-	})
-	$('.xx li').click(function(){
-//		if($(this).hasClass('uiwu')){
-//			$(this).removeClass('uiwu');
-//			
-//		}else{
-//			$(this).addClass('uiwu');
-//			
-//		}
-			
-		$('#for').css('display','none');
-		$(this).css('backrgound','#fff');
-		
-	})
-	
 	
 	
 yy.on('tap', function() {
@@ -275,12 +247,13 @@ src.onclick = function() {
 }
 
 var $oneli = $('.oneli');
+
 $oneli.on('tap', function() {
-	
 	var $liing = $(this);
 	var index = $liing.index();
+	
 	//			console.log(index);
-	if($liing.hasClass('active')) {
+		if($liing.hasClass('active')) {
 		
 		$liing.removeClass('active');
 		$('.none').eq(index).hide();
@@ -289,7 +262,9 @@ $oneli.on('tap', function() {
 	} else {
 		var sTp = document.body.scrollTop;
 		if(sTp <= ol - 55){
-			window.scroll(0, 270)
+			
+			window.scroll(0, 270);
+			$('.none').eq(index).css('display','block')
 		}
 		$oneli.removeClass('active');
 		$liing.addClass('active');
@@ -298,7 +273,35 @@ $oneli.on('tap', function() {
 	}
 })
 
+	
 
+	$('.none div').click(function(){
+//		if($(this).hasClass('uiwu')){
+//			$(this).removeClass('uiwu');
+//			
+//		}else{
+//			$(this).addClass('uiwu');
+//			
+//		}
+			
+		$('.none').css('display','none');
+		$(this).css('backrgound','#fff');
+		$oneli.removeClass('active');
+	})
+	$('.xx li').click(function(){
+//		if($(this).hasClass('uiwu')){
+//			$(this).removeClass('uiwu');
+//			
+//		}else{
+//			$(this).addClass('uiwu');
+//			
+//		}
+			
+		$('#for').css('display','none');
+		$(this).css('backrgound','#fff');
+		$oneli.removeClass('active');
+	})
+	
 
 
 var Top_b = document.getElementById('top_bottom');
