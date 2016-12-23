@@ -1,5 +1,5 @@
 var widthright = $(window).width();
-
+//alert('sssss');
 //设置自动轮播
 var dingshi = setInterval(function() {
 	Right();

@@ -4,6 +4,10 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,maximun-scale=1,minimum-scale=1,user-scable=no">
+		 <meta name="keywords" content="杭州摆摆网络科技有限公司"/>
+   	 	<meta name="description" content="杭州摆摆网络科技有限公司是一家互联网制作及设计的现代设计公司
+   											 摆摆网络将市场定位于以企业互联网电子商务平台及企业信息化建设为基点，提供全方位的设计与应用方案。以网站建设及网络营销整合作为其主打服务产品之外，摆摆网络的服务范围包括软件开发、平面设计、界面设计、网页设计等多方位优质服务。 "/>
+		<title>窝牛居 - 杭州摆摆网络科技有限公司</title>
 		<link rel="stylesheet" type="text/css" href="../../public/css/wo/zhuc.css"/>
 		<style type="text/css">
 
@@ -47,7 +51,7 @@
 				<div class="shenfimg"></div>
 				<span class="shenffont">身份：</span>
 				<div class="shhenfright"></div>
-				<input type="text" id="font_none" class="text" value="" placeholder="" />
+				<input type="text" id="font_none" class="text" value="" placeholder="经纪人" />
 				
 				<div class="none_div">
 					<div class="name_font">经纪人</div>
@@ -64,10 +68,17 @@
 		<div class="margin-top"></div>
 		
 		<p class="font_zc">注册即代表同意<a href="#">《活力矩阵用户协议》</a></p>
+		
+		<div class="none_ccc">
+			<div class="alert">
+				<div class="alert_top">注册完成，请等待后天确认</div>
+				<div class="alert_bottom">确认</div>
+			</div>
+		</div>
 	</body>
 	<script src="//cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
 	<script type="text/javascript">
-	$(".pasw").blur(function(){
+	$("#font_none").blur(function(){
 				if(($('.code').value != '')&&($('.pasw').value != '')&&($('.text').value != '')&&($('.pasw').value != '')){
 					$('.dengl').css('background','#EA5404');
 			}
@@ -92,8 +103,14 @@
 	})
 	
 	$('.dengl').click(function(){
-				location.replace("denglh.html")
+		$('.none_ccc').css('display','block');
+				//location.replace("denglh.html")
 			})
-	
+	$('.alert_bottom').click(function(){
+		location.replace("denglh.html")
+			})
+	$('.lt').click(function(){
+		location.replace("dengl.html")
+			})
 	</script>
 </html>
