@@ -71,12 +71,12 @@ app.use('/wexin', function(req, res){
 
 
 //监听端口 9999， 用来启动服务
-app.listen(16904, function(){
+server.listen(16904, function(){
     console.log('server run at port 16904');
 });
 
 //模块导出
-module.exports = app;
+module.exports = server;
 
 
 
